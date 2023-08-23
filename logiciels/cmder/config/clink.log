@@ -1,0 +1,43 @@
+2868 start_logger              160 ---- 2023/08/22 16:47:20.577 -------------------------------------------------
+2868 start_logger              166 Host process is 'cmd.exe' (pid 10344)
+2868 start_logger              170 DLL path is '\\59011VMFIC02.exchange.Ad.afpanet\59011-DATA\GRP-82\59011-82-08\logiciels\cmder\vendor\clink'
+2868 start_logger              185 Windows version 10.0.19044 (x64)
+2868 start_logger              187 Clink version 1.5.1.1e9e51 (x64)
+2868 hook_setter::hook_setter  159 >>> Started hook transaction.
+2868 hook_setter::attach_iat   316 Attempting to hook SetEnvironmentVariableW in IAT for module 00007FF689310000.
+2868 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+2868 find_iat                  124 Found import at 00007FF689343860 (value is 00007FFCC63D2FC0).
+2868 hook_setter::attach_iat   316 Attempting to hook WriteConsoleW in IAT for module 00007FF689310000.
+2868 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+2868 find_iat                  124 Found import at 00007FF6893434F8 (value is 00007FFCC63776D0).
+2868 hook_setter::attach_iat   316 Attempting to hook GetEnvironmentVariableW in IAT for module 00007FF689310000.
+2868 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+2868 find_iat                  124 Found import at 00007FF689343880 (value is 00007FFCC6395430).
+2868 hook_setter::commit       207 <<< Hook transaction committed.
+2868 hook_setter::hook_setter  159 >>> Started hook transaction.
+2868 hook_setter::detach_iat   359 Attempting to unhook 00007FFCA124B0F0 from GetEnvironmentVariableW in IAT for module 00007FF689310000.
+2868 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+2868 find_iat                  124 Found import at 00007FF689343880 (value is 00007FFCA124B0F0).
+2868 hook_setter::commit       207 <<< Hook transaction committed.
+2868 hook_setter::hook_setter  159 >>> Started hook transaction.
+2868 hook_setter::attach_iat   316 Attempting to hook ReadConsoleW in IAT for module 00007FF689310000.
+2868 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+2868 find_iat                  124 Found import at 00007FF6893434E0 (value is 00007FFCC6480A30).
+2868 hook_setter::commit       207 <<< Hook transaction committed.
+2868 hook_setter::hook_setter  159 >>> Started hook transaction.
+2868 hook_setter::attach_iat   316 Attempting to hook SetConsoleTitleW in IAT for module 00007FF689310000.
+2868 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l2-2-0.dll'
+2868 find_iat                  124 Found import at 00007FF689343558 (value is 00007FFCC63E6930).
+2868 hook_setter::commit       207 <<< Hook transaction committed.
+2868 win_screen_buffer::begin  297 Using native terminal support (auto mode found 'ConEmuHk64.dll').
+2868 reset_handle              144 resetting mismatched stdout handle
+2868 host_lua::load_scripts    158 Loaded 2 Lua scripts in 1639 ms
+2868 ={update.lua}               0 Clink updater: updating because there is no record of having updated before.
+2868 extract_ctag              926 read 0 bytes
+2868 extract_ctag              926 read 0 bytes
+2868 history_db::initialise   1264 master bank ctag: |CTAG_1692715645_1650100578_10344_0
+2868 history_db::compact      1526 History:  0 active, 0 deleted
+2868 ={update.lua}               0 Clink updater: latest release is v1.5.3; install type is zip.
+2868 ={update.lua}               0 Clink updater: downloading https://github.com/chrisant996/clink/releases/download/v1.5.3/clink.1.5.3.7fc5d2.zip to C:\Users\59011-~1\AppData\Local\Temp\clink\updater\v1.5.3.zip.
+2868 ={update.lua}               0 Clink updater: update in C:\Users\59011-~1\AppData\Local\Temp\clink\updater\v1.5.3.zip is ready to be applied.
+2868 history_db::compact      1526 History:  0 active, 0 deleted
